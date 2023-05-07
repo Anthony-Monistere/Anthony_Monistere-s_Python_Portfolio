@@ -1536,8 +1536,8 @@ temp_kelvin = fahr_to_kelvin(temp_fahr)
 
 print_temperatures()
 ```
-## Functions Part 2
-The following code introduced how to make graphs for large data sets using functions.
+## Functions Part 2, 3, and 4
+The following code introduced how to make graphs for large data sets using functions and how variables interact with loops and functions.
 
 ```python
 import numpy 
