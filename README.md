@@ -633,7 +633,7 @@ print('weight in kilograms is now:', weight_kg)
 
 
 ## Analyzing Data Parts 1 & 2
-The following code is an introduction to performing data analysis for patients using functions in Python.
+The following code is an introduction to performing data analysis for patients in Python.
 
 
 ```python
@@ -1397,6 +1397,7 @@ else:
 
     Minima add up to zero! -> HEALTHY PARTICIPANT ALERT!
 
+## Functions Part 1 
 
 
 
