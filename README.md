@@ -1953,6 +1953,91 @@ def std_dev(sample):
 
 ```
 
+## Errors 
+The following code introduces how to interpret Error messages, and it explained how programmers work to fix these errors one step at a time.
+
+```python
+# This code has has intentional error. You can type it directly 
+# or use it for reference to understand the error message below.
+
+def favorite_ice_cream():
+    ice_creams = [
+        'chocolate',
+        'vanilla',
+        'strawberry'
+    ]
+    print(ice_creams[3])
+
+favorite_ice_cream()
+
+```
+
+
+    ---------------------------------------------------------------------------
+
+    IndexError                                Traceback (most recent call last)
+
+    <ipython-input-6-a17e7cb8bb88> in <module>
+         10     print(ice_creams[3])
+         11 
+    ---> 12 favorite_ice_cream()
+    
+
+    <ipython-input-6-a17e7cb8bb88> in favorite_ice_cream()
+          8         'strawberry'
+          9     ]
+    ---> 10     print(ice_creams[3])
+         11 
+         12 favorite_ice_cream()
+
+
+    IndexError: list index out of range
+
+
+
+```python
+def some_function():
+    msg = 'hello, world!'
+    print(msg)
+    return msg
+```
+
+
+```python
+print(a)
+```
+
+
+```python
+print('hello')
+```
+
+
+```python
+count = 0
+
+for number in range(10):
+    count = count + number
+print('The count is:', count)
+```
+
+
+```python
+letters = ['a', 'b', 'c']
+
+print('Letter #1 is', letters[0])
+print('Letter #2 is', letters[1])
+print('Letter #3 is', letters[2])
+#print('Letter #4 is', letters[3])
+```
+
+
+```python
+file_handle = open('my_file.txt', 'w')
+
+```
+
+
 
 
 
