@@ -2115,7 +2115,7 @@ print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0)))
 ## Command Line Programs
 
 ## Transcribing DNA to RNA
-The following code presents how we used our knowledge of loops and logic to convert the DNA for the p53 gene into the RNA for the p53 gene.
+The following code presents how I used my knowledge of loops and logic to convert the DNA for the p53 gene into the RNA for the p53 gene.
 
 ```python
 # Prompt the user to enter the input fasta file name
